@@ -23,6 +23,7 @@ db\:migrate\:redo=
 db\:migrate\:reset=
 db\:migrate\:status=Display status of migrations
 db\:migrate\:up=
+db\:populate=Fill database with sample data
 db\:reset=
 db\:rollback=Rolls the schema back to the previous version (specify steps w/ STEP=n).
 db\:schema\:cache\:clear=Clear a db/schema_cache.dump file.
@@ -77,6 +78,7 @@ railties\:install\:migrations=
 routes=Print out all defined routes in match order, with names. Target specific controller with CONTROLLER=x.
 secret=Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions).
 spec=Run all specs in spec directory (excluding plugin specs)
+spec\:models=Run the code examples in spec/models
 spec\:requests=Run the code examples in spec/requests
 spec\:statsetup=
 stats=Report code statistics (KLOCs, etc) from the application
